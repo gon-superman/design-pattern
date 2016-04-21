@@ -10,6 +10,7 @@
 	<module>factory-method</module>
 	<module>dbstract-factory</module>
 	<module>abstract-factory</module>
+	<module>singleton</module>
 	</modules>
 
 
