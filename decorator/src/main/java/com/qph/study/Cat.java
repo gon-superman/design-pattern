@@ -2,14 +2,14 @@ package com.qph.study;
 
 public class Cat implements Animal{
 
-	private Pet pet;
+	private Animal animal;
 	
-	public Cat(Pet pet){
-		this.pet = pet;
+	public Cat(Animal animal){
+		this.animal = animal;
 	}
 	
 	public void cute() {
-		pet.cute();
+		animal.cute();
 		say();
 	}
 
